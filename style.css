@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.block{
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+}
+
+.main-container{
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.buttons-container{
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    height: 30px;
+    width: 100px;
+    text-decoration: none;
+    border: 1px solid black;
+    margin: 1rem 0.25rem;
+}
+
+.r{
+    background-color: red;
+}
+
+.y{
+    background-color: yellow;
+}
+
+.g{
+    background-color: greenyellow;
+}
